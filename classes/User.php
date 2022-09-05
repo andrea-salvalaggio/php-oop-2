@@ -13,4 +13,32 @@ class User{
         $this->email = $_email;
         $this->password = $_password;
     }
+
+    public function setName($_name){
+        $this->name = $_name;
+    }
+    public function getName(){
+        return $this->name;
+    }
+
+    public function setSurname($_surname){
+        $this->surname = $_surname;
+    }
+    public function getSurname(){
+        return $this->surname;
+    }
+
+    public function setEmail($_email){
+        $this->email = $_email;
+    }
+    public function getEmail(){
+        return $this->email;
+    }
+
+    public function setPassword($_password){
+        $this->password = $_password;
+    }
+    public function getPassword(){
+        return $this->password;
+    }
 }
